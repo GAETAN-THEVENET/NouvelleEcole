@@ -1,0 +1,287 @@
+
+body {
+
+    background-color: white;
+    font-family:'lato';
+}
+
+i {
+    position: absolute;
+    top: 45px;
+    left: 35px;
+    font-size: 2em;
+    color: white;
+    
+}
+
+
+
+.menu {
+    display: none;
+
+  }
+
+  .bande {
+    position: absolute;
+    left: -1px;
+
+    background-color: #EDD7F4;
+    height: 135px;
+    margin-top: -15px;
+
+    border-radius: 5%;
+    width: 100.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+  .logo {
+
+    height: 130px;
+
+  }
+
+  .logo.show {
+
+    display: none;
+  }
+
+
+a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 95vh;
+    margin-top: -1px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+  
+  .menu.show {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+    font-family: 'lato' ;
+    font-size: 2.5em;
+    background-color: #EDD7F4;
+
+    
+  }
+
+  .menu-icon.show {
+
+    color: black;
+  }
+
+  .landing {
+
+    object-fit: cover;
+  }
+
+  .prisetaille {
+
+    height: 380px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(237,215,244,1) 0%, rgba(237,215,244,1) 45%, rgba(96,91,137,1) 46%, rgba(96,91,137,1) 100%);
+    position: relative;
+    top: 130px;
+  }
+
+  .bandeau {
+
+    background-color: black;
+    position: relative;
+    top: 87px;
+    height: 30px;
+    z-index: 3;
+  }
+
+  .presentation {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+  .prise2 {
+
+    position: relative;
+    left: -15px;
+    top: 89px;
+    width: 105%;
+    max-height: 450px;
+    z-index: -1;
+  }
+
+  .titlejjb {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        height: 400px;
+        font-size: 2em;
+        font-family: 'lato' ;
+  }
+
+  .imagejjb {
+
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btnjjb1 {
+
+    height: 400px;
+    width: 400px;
+    background-image: url(./images/cd292dfce85bbaa0b90572e3b30d89c6.webp);
+    background-size: 500px;
+    background-position: 50%;
+  }
+
+  .btnjjb2 {
+
+    height: 400px;
+    width: 400px;
+    background-image: url(./images/360_F_502641976_schywz8UXRRvmJBgM15dB4VhLiQiI2P7.jpg);
+    background-size: 500px;
+    
+
+  }
+
+  .btnjjb3 {
+
+    height: 400px;
+    width: 400px;
+    background-image: url(./images/160150204-gros-plan-sur-la-main-d-un-homme-caucasien-inconnu-tenant-une-ceinture-noire-de-jiu-jitsu-brésilien.webp);
+    background-size: 500px;
+  }
+
+
+  .BoutonIndex {
+    position: relative;
+    top: 150px;
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(237,215,244,1) 0%, rgba(237,215,244,1) 50%, rgba(96,91,137,1) 50%, rgba(96,91,137,1) 100%);
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .BoutonMenu {
+
+    padding: 50px;
+    margin: 50px;
+    border-radius: 15px;
+    background-color: #EEE3FF;
+    border : white ;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jsp {
+
+    height: 350px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(237,215,244,1) 0%, rgba(237,215,244,1) 50%, rgba(96,91,137,1) 50%, rgba(96,91,137,1) 100%);
+
+
+  }
+
+  .espace {
+
+    height: 130px;
+  }
+
+  .titlebasics {
+
+    position: absolute;
+    top : -150px;  
+    font-size: 5em;
+    color: white;
+  }
+
+  .Centrage {
+
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(237,215,244,1) 0%, rgba(237,215,244,1) 50%, rgba(96,91,137,1) 50%, rgba(96,91,137,1) 100%);
+
+
+  }
+
+
+  .footer {
+
+   position: absolute;
+   bottom: -50px;
+  } 
+
+
+
+  .video {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(237,215,244,1) 0%, rgba(237,215,244,1) 50%, rgba(96,91,137,1) 50%, rgba(96,91,137,1) 100%);
+    height: 550px;
+  }
+
+
+  .ImagesBasics {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(237,215,244,1) 0%, rgba(237,215,244,1) 50%, rgba(96,91,137,1) 50%, rgba(96,91,137,1) 100%);
+    height: 550px;
+    width: 100%;
+  }
+
+
+  .ImageSelect {
+
+    height:  300px;
+  }
+
+  .ImageSelectf {
+
+    height: 50px;
+    position: relative;
+    bottom: 120px;
+  }
+
+
+  
