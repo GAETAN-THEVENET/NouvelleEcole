@@ -283,5 +283,10 @@ ul {
     bottom: 120px;
   }
 
+.RoseViolet {
 
+  background: linear-gradient(90deg, rgba(237,215,244,1) 0%, rgba(237,215,244,1) 50%, rgba(96,91,137,1) 50%, rgba(96,91,137,1) 100%);
+  height: 1800px;
+
+}
   
